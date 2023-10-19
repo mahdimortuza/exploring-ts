@@ -1,6 +1,6 @@
 "use strict";
-const myFunc = (a, b) => {
-    console.log(`Hello ${a} ${b}`);
+const myFunc = (a, b, c) => {
+    console.log(`Hello ${a} ${b} ${c}`);
 };
-const res = myFunc("apple", "orange");
+const res = myFunc("apple", "orange", "banana");
 console.log(res);
