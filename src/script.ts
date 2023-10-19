@@ -1,4 +1,5 @@
-const arr: (string | number)[] = []
-const res = arr.push("text", "fruit", 36)
-
-console.log(arr);
+const myFunc = (a: string, b: string) => {
+    console.log(`Hello ${a} ${b}`);
+}
+const res = myFunc("apple", "orange")
+console.log(res);

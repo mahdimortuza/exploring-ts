@@ -1,4 +1,6 @@
 "use strict";
-const arr = [];
-const res = arr.push("text", "fruit", 36);
-console.log(arr);
+const myFunc = (a, b) => {
+    console.log(`Hello ${a} ${b}`);
+};
+const res = myFunc("apple", "orange");
+console.log(res);
