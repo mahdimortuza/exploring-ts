@@ -1,6 +1,12 @@
-const myFunc = (a: string, b: string, c?: string) => {
-    console.log(`Hello ${a} ${b} ${c}`);
-}
-const res = myFunc("apple", "orange", "banana")
-console.log(res);
+type str = string
+type num = number
+type strOrNum = string | number
+type user = { nephew: string, age: number }
 
+
+const myFunc = (title: str, id: num, house: strOrNum) => {
+    return `His name is ${title}, id number is ${id}, house number is ${house}.`
+}
+
+const res = myFunc('komla', 32, 374)
+console.log(res);
