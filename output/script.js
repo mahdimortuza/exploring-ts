@@ -1,4 +1,4 @@
 "use strict";
-const myFunction = (a, b) => a * b;
-const res = myFunction(9, 2);
-console.log(res);
+const arr = [];
+const res = arr.push("text", "fruit");
+console.log(arr);
