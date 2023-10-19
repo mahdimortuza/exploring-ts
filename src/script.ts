@@ -3,3 +3,4 @@ const myFunc = (a: string, b: string, c?: string) => {
 }
 const res = myFunc("apple", "orange", "banana")
 console.log(res);
+
