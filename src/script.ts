@@ -1,4 +1,9 @@
-function drawRectangle(options: { width: number, length: number }) {
+interface rectangleOptions {
+    width: number;
+    length: number;
+}
+
+function drawRectangle(options: rectangleOptions) {
     const width = options.width
     const length = options.length
     return width * length
