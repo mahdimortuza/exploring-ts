@@ -1,12 +1,12 @@
-type str = string
-type num = number
-type strOrNum = string | number
-type user = { nephew: string, age: number }
-
-
-const myFunc = (title: str, id: num, house: strOrNum) => {
-    return `His name is ${title}, id number is ${id}, house number is ${house}.`
+function drawRectangle(options: { width: number, length: number }) {
+    const width = options.width
+    const length = options.length
+    return width * length
 }
 
-const res = myFunc('komla', 32, 374)
+const res = drawRectangle({
+    width: 5,
+    length: 6
+})
+
 console.log(res);

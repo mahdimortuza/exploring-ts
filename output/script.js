@@ -1,6 +1,11 @@
 "use strict";
-const myFunc = (title, id, house) => {
-    return `His name is ${title}, id number is ${id}, house number is ${house}.`;
-};
-const res = myFunc('komla', 32, 374);
+function drawRectangle(options) {
+    const width = options.width;
+    const length = options.length;
+    return width * length;
+}
+const res = drawRectangle({
+    width: 5,
+    length: 6
+});
 console.log(res);
